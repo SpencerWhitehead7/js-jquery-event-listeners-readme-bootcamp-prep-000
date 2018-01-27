@@ -13,6 +13,10 @@ function frameIt(){
   })
 }
 
+function pressIt(){
+  $
+}
+
 $(document).ready(function(){
 getIt()
 // call functions here
