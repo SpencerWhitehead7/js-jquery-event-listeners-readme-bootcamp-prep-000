@@ -15,12 +15,21 @@ function frameIt(){
 
 function pressIt(){
   $('form').on('keydown', function(key){
-    if(key.which == )
+    if(key.which == 71){
+      alert("Oh no! The ONE key you weren't supposed to press!")
+    }
+  })
+}
+
+function submitIt(){
+  $('form').on('submit', function(){
+    alert("Your form is going to be submitted now.")
   })
 }
 
 $(document).ready(function(){
 getIt()
-// call functions here
-
+frameIt()
+pressIt()
+submitIt()
 });
