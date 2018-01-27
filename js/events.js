@@ -9,6 +9,7 @@ function getIt(){
 function frameIt(){
   $('img').on('load', function(){
     let id = document.querySelector('img')
+    id.classname += 
   })
 }
 
