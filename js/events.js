@@ -14,7 +14,9 @@ function frameIt(){
 }
 
 function pressIt(){
-  $('form').on('keypress')
+  $('form').on('keydown', function(e){
+    
+  })
 }
 
 $(document).ready(function(){
